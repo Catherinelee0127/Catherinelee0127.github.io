@@ -1,6 +1,9 @@
 
 
-h1 {
+body {
 	background: blue;
 	color: orange;
+}
+hi {
+	color: #222;
 }
