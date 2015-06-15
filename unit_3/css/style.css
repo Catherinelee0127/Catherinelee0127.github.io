@@ -1,0 +1,44 @@
+body {
+	font-family:  Helvetica, Arial;
+	font-size: 20px;
+	color:#222;
+	font-size:18px;
+	padding: 30px;
+}
+
+#slogan {
+	font-family: Helvetica, Arial, San-serif;
+	font-size: 48px;
+	color: black;
+	font-weight: bold;
+	padding-bottom: 30px;
+
+}
+
+img {
+    position: auto;
+    right: 30px;
+    left: 30px;
+}
+
+/*I need help to adjust spacing between columns */
+.nav {
+	text-align: center; 
+	font-family: Helvetica, Arial;
+	font-size: : 24px;
+	font-weight: bold;
+	border-collapse: separate;
+    border-spacing: 100px;
+}
+
+ul {
+	font-family: Helvetica, Arial, San-serif;
+	font-size: 20px;
+	color: #222;
+	font-weight: normal;
+	line-height: 150%;
+}
+
+hr {
+	line-height: 10px;
+}
