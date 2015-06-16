@@ -1,44 +1,37 @@
 body {
-	font-family:  Helvetica, Arial;
+	font-family:  Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	color:#222;
-	font-size:18px;
-	padding: 30px;
 }
 
-#slogan {
-	font-family: Helvetica, Arial, San-serif;
-	font-size: 48px;
+h1 {
+	font-size: 2.5em;
 	color: black;
 	font-weight: bold;
-	padding-bottom: 30px;
+	margin-bottom: .5em;
 
 }
-
-img {
-    position: auto;
-    right: 30px;
-    left: 30px;
-}
-
 /*I need help to adjust spacing between columns */
-.nav {
-	text-align: center; 
-	font-family: Helvetica, Arial;
+nav {
+	text-align:center;
+}
+nav a {
 	font-size: : 24px;
 	font-weight: bold;
-	border-collapse: separate;
-    border-spacing: 100px;
 }
 
-ul {
-	font-family: Helvetica, Arial, San-serif;
-	font-size: 20px;
+li {
 	color: #222;
 	font-weight: normal;
-	line-height: 150%;
+	margin-top:1em;
 }
 
 hr {
 	line-height: 10px;
+}
+#splash {
+	background: url('../images/filename goes here');
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:;
 }
