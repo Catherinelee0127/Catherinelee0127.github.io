@@ -43,7 +43,7 @@ h1 {
 	line-height:1em;
 }
 #splash {
-	background: url('image/front.jpg');
+	background: url('../image/front.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
 	height:95vh;
