@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
 	font-family: 'Hind', sans-serif;
 	font-size: 20px;
 	color:#222;
@@ -63,7 +62,7 @@ ul {
 =======
 li {
 	color: #222;
-	font-weight: normal;
+	font-weight: 500;
 	margin-top:1em;
 }
 
@@ -71,9 +70,9 @@ hr {
 	line-height: 10px;
 }
 #splash {
-	background: url('../images/filename goes here');
+	background: url('image/front.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
-	height:;
+	height:700px;
 }
 >>>>>>> origin/master
