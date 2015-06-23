@@ -1,22 +1,8 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	font-family: 'Hind', sans-serif;
 	font-size: 20px;
 	color:#222;
-	padding: 30px;
-}
-
-#splash {
-	font-size: 48px;
-	color: black;
-	font-weight: 700;
-	padding-bottom: 30px;
-
-}
-
-img {
-    position: auto;
-    right: 30px;
-    left: 30px;
 }
 
 /*I need help to adjust spacing between columns 
@@ -25,54 +11,40 @@ img {
 	font-size: : 24px;
 	font-weight: 500;
 	border-collapse: separate;
-    border-spacing: 100px;
-=======
+	border-spacing: 100px;
 	font-family:  Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	color:#222;
-}
-
-h1 {
-	font-size: 2.5em;
-	color: black;
-	font-weight: bold;
-	margin-bottom: .5em;
-
 }
 /*I need help to adjust spacing between columns */
 nav {
 	text-align:center;
 }
 nav a {
+	color:#222;
 	font-size: : 24px;
 	font-weight: bold;
->>>>>>> origin/master
 }
-*/
-
-<<<<<<< HEAD
 ul {
-	font-size: 24px;
-	color: #222;
-	font-weight: 500;
-	line-height: 150%;
+	margin-left:1.2em;
 }
-
-
-=======
 li {
-	color: #222;
 	font-weight: 500;
 	margin-top:1em;
 }
 
 hr {
-	line-height: 10px;
+	border:5px solid #222;
+}
+h1 {
+	color: #222;
+	font-size: 2.5em;
+	font-weight: 700;
+	line-height:1em;
 }
 #splash {
 	background: url('image/front.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
-	height:700px;
+	height:95vh;
 }
->>>>>>> origin/master
