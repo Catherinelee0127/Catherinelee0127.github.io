@@ -4,8 +4,14 @@ body {
 	font-size: 20px;
 	color:#222;
 }
-body>section:nth-child(odd) {
+body>section {
+	padding:5em 0;
+}
+body>section:nth-child(even) {
 	background:lightblue;
+}
+section>div {
+	clear:both;
 }
 nav {
 	float:right;
