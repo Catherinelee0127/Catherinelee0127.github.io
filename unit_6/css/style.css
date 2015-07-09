@@ -1,4 +1,5 @@
 * { margin:0; padding:0; box-sizing:border-box; }
+<<<<<<< HEAD
 
 .clearfix:after {
   visibility: hidden;
@@ -9,6 +10,8 @@
   font-size: 0;
 }
 
+=======
+>>>>>>> origin/master
 body {
 	font-family: 'Source Sans Serif' sans-serif;
 	font-size: 24px;
@@ -19,21 +22,28 @@ body {
 	padding: 0;
 }
 body>section {
+<<<<<<< HEAD
 	padding:3.2em 5em;
 }
 body>section:nth-child(even) {
 	background: #eaf9ff;
+=======
+	padding:5em 0;
+}
+body>section:nth-child(even) {
+	background:lightblue;
+>>>>>>> origin/master
 }
 section>div {
 	clear:both;
 }
-
 nav {
 	float:right;
 }
 
 nav a {
 	color: #1762c9;
+<<<<<<< HEAD
 	font-weight: 200;
 	font-size: 16px;
 	text-decoration: none;
@@ -54,6 +64,14 @@ a:hover {
 	padding-left: 120px;
 }
 
+=======
+	font-size: : 24px;
+	font-weight: 700;
+}
+p {
+	font-family: 'Georgia', serif;
+}
+>>>>>>> origin/master
 h1 {
 	color: #fff;
 	font-size: 2.4em;
@@ -64,6 +82,7 @@ h1 {
 
 h2 {
 	font-weight: 700;
+<<<<<<< HEAD
 	font-size: 1.2em;
 	text-transform: uppercase;
 	letter-spacing: .1em;
@@ -80,6 +99,38 @@ img {
 
 p {
 	padding-top: 20px;
+=======
+	line-height:1.2em;
+}
+img {
+	display: block;
+	float:left;
+}
+#splash {
+	background: url('../image/hero.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:760px;
+	padding-top: 350px;
+}
+
+.column {
+	float: left;
+
+}
+#column1 {
+	background-color: #fab582;
+	width: 400px;
+}
+#column2 {
+	background-color: #AC54EE;
+	width: 600px;
+	
+}
+#column3 {
+	background-color: #fab582;
+	width: 400px;
+>>>>>>> origin/master
 }
 
 #logo {
